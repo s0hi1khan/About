@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  text-align: center;
+  line-height: 2;
+  font-weight: 2;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2;
+  background-color: #eaf6f6;
+}
+h2 {
+  font-size: 2.5rem;
+  margin: 0.4em 0;
+}
+.heading {
+  color: #38dbce;
+  text-shadow: 0.2px 0.2px black;
+}
+.greet {
+  color: white;
+  text-shadow: 0.5px 0.5px black;
+}
+h1 {
+  font-family: "Sacramento", cursive;
+  margin-top: 0;
+  font-size: 360%;
+}
+#learner {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+}
+.top-container {
+  /* background-color: #e0fceb; */
+  height: 720px;
+  background-image: linear-gradient(
+    to right,
+    #fee154,
+    #a3dec6,
+    #74d4cc,
+    #1386a6,
+    #233072,
+    #040b3c
+  );
+}
+
+.sun {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+}
+.cloud {
+  width: 100px;
+}
+.moon {
+  position: absolute;
+  left: 1350px;
+  top: 50px;
+}
+.top-cloud {
+  position: relative;
+  left: 300px;
+}
+.bottom-cloud {
+  position: absolute;
+}
+.bird {
+  position: absolute;
+}
+
+.top-bird {
+  width: 74px;
+  top: 58px;
+  left: 300px;
+}
+.top2-bird {
+  width: 94px;
+  top: 65px;
+  left: 400px;
+}
+.mid-bird {
+  width: 100px;
+  left: 1200px;
+  top: 60px;
+}
+.mid2-bird {
+  width: 100px;
+  top: 255px;
+  left: 580px;
+}
+.bottom-bird {
+  left: 1150px;
+  width: 130px;
+  top: 300px;
+}
+.top-bird2 {
+  width: 80px;
+  top: 510px;
+  left: 870px;
+}
+.mountain {
+  width: 603px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: grey;
+  width: 5%;
+  height: 0px;
+}
+
+/* ***************************************middle********* */
+.middle-container {
+  margin: 50px;
+}
+.skill h2 {
+  font-weight: bolder;
+}
+.skill_pic {
+  width: 388px;
+  border-radius: 100px;
+}
+.icon {
+  width: 28px;
+  margin-top: 3px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-right: 3px;
+}
+.skill {
+  margin: 10px;
+  width: 200px;
+  border-radius: 50px;
+}
+.profile img {
+  width: 249px;
+  border-radius: 90px;
+}
+.skill-row {
+  width: 55%;
+  margin: 100px auto;
+  /* text-align: left; */
+}
+.skill-left {
+  float: left;
+  margin-right: 30px 0px;
+}
+.skill-right {
+  float: right;
+}
+
+/* ******************************************bottom************************ */
+.bottom-container img {
+  width: 70px;
+  border-radius: 50px;
+}
+.bottom-container a {
+  margin: 0px 10px;
+}
+.bottom-container {
+  background-color: #cbecea;
+  padding-top: 15px;
+}
+.bottom-container p{
+    margin-top: 5px;
+}
+
+.intro {
+  width: 40%;
+  margin: 10px auto;
+}
+
+.btn {
+  background: #74d4cc;
+  background-image: -webkit-linear-gradient(top, #74d4cc, #2980b9);
+  background-image: -moz-linear-gradient(top, #74d4cc, #2980b9);
+  background-image: -ms-linear-gradient(top, #74d4cc, #2980b9);
+  background-image: -o-linear-gradient(top, #74d4cc, #2980b9);
+  background-image: linear-gradient(to bottom, #74d4cc, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 27px;
+  padding: 8px 20px 8px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #74d4cc;
+  background-image: -webkit-linear-gradient(top, #2980b9, #74d4cc);
+  background-image: -moz-linear-gradient(top, #2980b9, #74d4cc);
+  background-image: -ms-linear-gradient(top, #2980b9, #74d4cc);
+  background-image: -o-linear-gradient(top, #2980b9, #74d4cc);
+  background-image: linear-gradient(to bottom, #2980b9, #74d4cc);
+  text-decoration: none;
+  font-size: 30px;
+}
